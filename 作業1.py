@@ -1,7 +1,7 @@
 print("計算園面積")
 r=int(input("請輸入半徑="))
 
-pi=3.14159265359
+import math
 
-print("園面積=", r*r*pi)
+print("園面積=", r**2*math.pi)
       
