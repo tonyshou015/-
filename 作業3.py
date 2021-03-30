@@ -1,5 +1,4 @@
-x=eval(input("請輸入身高(cm)="))
-y=eval(input("請輸入體重(kg)="))
+h=eval(input("請輸入身高(cm)="))
+w=eval(input("請輸入體重(kg)="))
 
-x=x/100
-print("您的BMI= {0}".format(y/(x*x))
+print("您的BMI= {0:.2f}".format(w/((h/100)**2)))
