@@ -1,17 +1,18 @@
 import random
-x=random.randint(1,10)
+anser=random.randint(1,10)
 
-y=eval(input("請猜一個數字(1~10):"))
+guss=eval(input("請猜一個數字(1~10):"))
        
 
 
-while y>x:
-    print("太大了，小一點")
-    y=eval(input("請猜一個數字(1~10):"))
+while guss!=anser:
+    if guss<anser:
+        print("太小了，大一點")
 
-else:
-    print("太小了，大一點!")
-    y=eval(input("請猜一個數字(1~10):"))
+    else:
+        print("太大了，小一點!")
+    guss=eval(input("請猜一個數字(1~10):"))
     
-print("猜對了")
+else:
+    print("猜對了")
     
