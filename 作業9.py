@@ -1,10 +1,6 @@
-x=1
-y=1
-
-z=9
-
-while z>=x
-x*y
-y+=1
-
-print("{0,1}".format(x,y))
+for i in range(1,10):
+    for j in range(1,10):
+        x=i*j
+        print("{0:>}*{1:>}={2:>2d}".format(i,j,x), end=" ")
+    print()
+    
