@@ -1,5 +1,5 @@
 f=eval(input("請輸入大樓的樓層數:"))
-
+print("本大樓樓層列表:")
 i=1
 if f<4: 
     for i in range(1,f+1):
