@@ -1,5 +1,3 @@
-
-
 while True:
     account=input("請輸入帳號:")
     password=input("請輸入密碼:")
