@@ -1,3 +1,4 @@
+print("DNA序列包含A,T,G,C")
 x=input("請輸入第一條DNA序列:").upper()
 similar= ""
 y=input("請輸入第二條DNA序列:").upper()    
