@@ -23,6 +23,8 @@ if isAllDNAOK:
     print(x)
     print(similar)
     print(y)
+    similarity=similar.count("|")/len(similar)
+    print("相似度:{:.2%}".format(similarity))
 else:
     print("無效的DNA字母，你的字母必須是 A,T,C,G 這四個字母其中之一")
     
