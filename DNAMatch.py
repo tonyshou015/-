@@ -11,3 +11,6 @@ for i in range(0, len(DNA1)):
 print(DNA1)
 print(similar)
 print(DNA2)
+
+similarity=similar.count("|")/len(similar)
+print("相似度:{:.2%}".format(similarity))
